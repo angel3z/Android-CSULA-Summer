@@ -1,0 +1,7 @@
+1. 2pts: Visit this site and look around a bit: https://newsapi.org/. Sign up and get your free api key.
+
+2. 2pts: Past this url: https://newsapi.org/v1/articles?source=the-next-web&sortBy=latest&apiKey=   with your api key added to the end in a browser. Cut and paste the result into a text file and submit here. Do this before you demo your app.
+
+Result:
+
+https://newsapi.org/v1/articles?source=the-next-web&sortBy=latest&apiKey=f6f1bbe646eb4043bd502a39a715aa96
