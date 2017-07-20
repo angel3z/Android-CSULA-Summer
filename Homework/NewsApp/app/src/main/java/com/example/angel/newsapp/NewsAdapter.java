@@ -62,7 +62,7 @@ public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.ItemHolder>{
             title = (TextView)view.findViewById(R.id.news_title);
             description = (TextView)view.findViewById(R.id.news_description);
             date = (TextView)view.findViewById(R.id.news_date);
-            url = (TextView)view.findViewById(R.id.news_url);
+//            url = (TextView)view.findViewById(R.id.news_url);
             view.setOnClickListener(this);
         }
 
@@ -71,7 +71,7 @@ public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.ItemHolder>{
             title.setText(news.getTitle());
             description.setText(news.getDescription());
             date.setText(news.getDate());
-            url.setText(news.getUrl());
+//            url.setText(news.getUrl());
 
         }
 

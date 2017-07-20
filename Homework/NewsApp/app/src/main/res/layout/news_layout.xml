@@ -18,7 +18,7 @@
     <TextView
         android:id="@+id/news_description"
         android:layout_width="match_parent"
-        android:layout_height="75dp"
+        android:layout_height="78dp"
         android:textSize="14sp"
         android:layout_weight="0.50" />
 
@@ -28,12 +28,12 @@
         android:layout_height="33dp"
         android:textSize="14sp" />
 
-    <TextView
-        android:id="@+id/news_url"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="14sp"
-        android:visibility="gone"/>
+    <!--<TextView-->
+        <!--android:id="@+id/news_url"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textSize="14sp"-->
+        <!--android:visibility="gone"/>-->
 
     <!--Old-->
 
