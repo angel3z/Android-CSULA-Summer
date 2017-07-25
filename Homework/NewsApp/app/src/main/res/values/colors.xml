@@ -3,4 +3,10 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="slateGrey">#708090</color>
+    <color name="grain">#DCDCDC</color>
+    <color name="dodger">#1E90FF</color>
+    <color name="steelBlue">#B0C4DE</color>
+    <color name="aliceBlue">#F0F8FF</color>
+    <color name="snow">#FFFAFA</color>
 </resources>

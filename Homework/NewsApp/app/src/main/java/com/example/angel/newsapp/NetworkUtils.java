@@ -88,8 +88,10 @@ public final class NetworkUtils {
             String description = articles.getString("description");
             String url = articles.getString("url");
             String date = articles.getString("publishedAt");
+            //Added the Image Url when retrieving from the JSON
+            String imageUrl = articles.getString("urlToImage");
 
-            NewsItem news = new NewsItem(name,title,description,date,url);
+            NewsItem news = new NewsItem(name,title,description,date,url,imageUrl);
             data.add(news);
 
 

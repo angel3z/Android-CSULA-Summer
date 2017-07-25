@@ -8,13 +8,23 @@ public class NewsItem {
     private String description;
     private String date;
     private String url;
+    private String image;
 
-    public NewsItem(String author, String title, String description, String date, String url) {
+    public NewsItem(String author, String title, String description, String date, String url, String image) {
         this.author = author;
         this.title = title;
         this.description = description;
         this.date = date;
         this.url = url;
+        this.image = image;
+    }
+// Added Getters and Setters for the Image URL
+    public String getImage() {
+        return image;
+    }
+
+    public void setImage(String image) {
+        this.image = image;
     }
 
     public String getAuthor() {
